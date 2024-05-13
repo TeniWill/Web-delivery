@@ -1,0 +1,66 @@
+.background{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    height: 350px;
+}
+
+.banner-title{
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 6rem;
+    padding-top: 8rem;
+}
+
+.banner-text{
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 6rem;
+}
+
+.card-deck{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+
+.card{
+    width: 330px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 4rem;
+   
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-img{
+    width: 200px;
+    align-self: center;
+}
+
+.navigations{
+    background-color: white;
+    margin-left: 25rem;
+    margin-top: 3rem;
+    float: right;
+    height: 100px;
+    width: 300px;
+}
+
+.navigations:hover{
+    background-color: rgb(7, 7, 91);
+    color: white;
+}
+
+h5{
+    margin-top: 1rem;
+}
